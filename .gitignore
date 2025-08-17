@@ -24,9 +24,7 @@ node_modules/
 
 krita-x64-*/
 
-krita-x64-5.2.11/
 
-blender-4.5.1-windows-x64/
 
 apps/web/.next/
 
@@ -39,3 +37,4 @@ apps/web/.next/
 **/*.pdb
 
 **/*.exe
+
