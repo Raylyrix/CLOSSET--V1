@@ -1,0 +1,21 @@
+{
+  "name": "closset-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev": "pnpm -r -F @closset/server dev & pnpm -r -F @closset/web dev",
+    "dev:server": "pnpm -r -F @closset/server dev",
+    "dev:web": "pnpm -r -F @closset/web dev",
+    "test:server": "node scripts/test-server.mjs"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "20.12.12",
+    "@types/react": "18.2.46",
+    "@types/react-dom": "18.2.18",
+    "typescript": "5.4.5"
+  }
+}
