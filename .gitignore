@@ -8,7 +8,6 @@ node_modules/
 
 **/build/
 
-**/.next/
 
 **/.vercel/
 
@@ -22,19 +21,14 @@ node_modules/
 
 **/.DS_Store
 
-krita-x64-*/
 
 
 
-apps/web/.next/
 
 **/cache/
 
 **/tmp/
 
-**/*.pack
 
-**/*.pdb
 
-**/*.exe
 
